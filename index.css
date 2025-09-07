@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+
+    @media screen and (max-width: 767px){
+        width: 375px;
+    }
+
+    
+}
+
+.hero{
+    
+    background-color: #0E0E0E;
+    header{
+        border: none;
+        border-bottom: 1px solid #FFFFFF;
+        height: 96px;
+
+        
+
+        img{
+            height: 25px;
+            width: 143px;
+            @media screen and (max-width: 767px){
+                order: 2;
+            }
+          
+        }
+
+        .barsIcon{
+            @media screen and (max-width: 767px){
+                order: 1;
+            }
+        }
+
+        
+
+        a{
+            font-family: Manrope;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            @media screen and (max-width: 767px){
+                order: 3;
+            }
+
+        }
+
+        svg{
+            @media screen and (max-width: 767px){
+                width: 23px;
+                height: 20px;
+                color: #FFFFFF;
+            }
+        }
+
+        
+    }
+
+    main{
+        overflow: hidden;
+        aside{
+            width: 398px;
+            height: 346px;
+            gap:24px;
+            position: relative;
+
+            @media screen and (max-width: 767px){
+                position: absolute;
+                z-index: 100;
+            }
+
+            h5{
+                font-family: Manrope;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 10px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+
+                @media screen and (max-width: 767px){
+                    color: #ffffff54;
+                }
+
+            }
+
+            .headPhonesModel{
+                height: 116px;
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 58px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+
+                @media screen and (max-width: 767px){
+                    font-size: 36px;
+                    line-height: 40px;
+                    letter-spacing: 1.29px;
+                    text-align: center;
+
+                }
+
+            }
+
+            .ourProducts{
+                height: 75px;
+                font-family: Manrope;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                width: 349px;
+
+                @media screen and (max-width: 767px){
+                    width: 328px;
+                    font-weight: 400;
+                    font-size: 15px;
+                    leading-trim: NONE;
+                    line-height: 25px;
+                    letter-spacing: 0px;
+                   text-align: center;
+                   color: #ffffff5e;
+
+
+                }
+
+            }
+
+            button{
+                width: 160px;
+                height: 48px;
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 100%;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color:#FFFFFF;
+                background-color: #D87D4A;
+                border: none;
+
+            }
+        }
+
+        figure{
+            @media screen and (max-width: 767px) {
+                position: relative;
+                right: 125px;
+                z-index: 0;
+                
+            }
+
+            img{
+                @media screen and (max-width: 767px) {
+               width: 576px;
+                
+            }
+            }
+        }
+    }
+}
+
+.secondPart{
+    height: auto;
+    padding-top: 120px;
+
+    .topPart{
+        height: 284px;
+        @media screen and (max-width: 767px){
+            width: 327px;
+            height: 868px;
+            gap: 68px;
+            padding-bottom: 120px;
+        }
+
+        .item{
+            width: 350px;
+            height: 204px;
+            background-color: #F1F1F1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+            padding-bottom: 30px;
+            border-radius: 10px;
+
+            @media screen and (max-width: 767px){
+                width: 327px;
+                height: 217px;
+            }
+
+            h4{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 100%;
+                letter-spacing: 1.29px;
+                text-align: center;
+                text-transform: uppercase;
+
+                @media screen and (max-width: 767px){
+                    font-size: 15px;
+                    leading-trim: NONE;
+                    letter-spacing: 1.07px;
+
+                }
+
+            }
+
+            img{
+                position: absolute;
+                bottom: 130px;
+
+                @media screen and (max-width: 767px){
+                    width: 79.92px;
+                    height: 104px;
+                    bottom: 172px;
+                }
+            }
+
+            .shadowShape{
+                width: 122px;
+                height: 18px;
+                border-radius: 50%;
+                filter: blur(18px);
+                background-color: black;
+                position: absolute;
+                top: 70px;
+
+                @media screen and (max-width: 767px){
+                    top: 90px;
+                }
+            }
+
+            button{
+              border: none;
+              background-color: #F1F1F1;
+
+              font-family: Manrope;
+              font-weight: 700;
+              font-size: 13px;
+              line-height: 100%;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+
+              @media screen and (max-width: 767px){
+                width: 70px;
+                height: 18px;
+                leading-trim: NONE;
+
+              }
+
+
+              svg{
+                color: #D87D4A;
+                padding-bottom: 2px;
+
+                @media screen and (max-width: 767px) {
+                    width: 22px;
+                    height: 22px;
+                }
+            
+              }
+            }
+        }
+    }
+
+    .zx9-speaker{
+        background-color: #D87D4A;
+        border-radius: 10px;
+
+        @media screen and (max-width: 767px){
+                height: 600px;
+                width: 327px;
+                overflow: hidden;
+            }
+
+        .leftProduct{
+            position: relative;
+            height: 560px;
+
+            @media screen and (max-width: 767px){
+             width: 327px;
+            }
+
+            
+
+            .larger-cricle{
+                position: absolute;
+                top: -36px;
+                left: -149px;
+                width: 944px;
+                height: 944px;
+                border-radius: 50%;
+                border: 0.5px solid #ffffff4a;
+                z-index: 2;
+
+                @media screen and (max-width: 767px){
+                    width: 558px;
+                    height: 558px;
+                    top: -106px;
+                    left: -112px;
+                }
+            }
+
+            .large-circle{
+                position: absolute;
+                top: 165px;
+                left: 201px;
+                width: 542px;
+                height: 542px;
+                border-radius: 50%;
+                border: 1px solid #ffffff4a;
+                z-index: 2;
+
+                @media screen and (max-width: 767px){
+                    width: 320px;
+                    height: 320px;
+                    top: 116px;
+                    left: 114px;
+                }
+            }
+
+            .small-circle{
+                position: absolute;
+                top: 35px;
+                left: 35px;
+                width: 472px;
+                height: 472px;
+                border-radius: 50%;
+                border: 1px solid #ffffff4a;
+                z-index: 2;
+
+                 @media screen and (max-width: 767px){
+                    width: 279px;
+                    height: 279px;
+                    top: 19px;
+                    left: 20px;
+                }
+            }
+            img{
+                  position: absolute;
+                  width: 410.23px;
+                  height: 493px;
+                  z-index: 100;
+                  left: 70px;
+                  top: 65px;
+
+                  @media screen and (max-width: 767px){
+                    width: 172.25px;
+                    height: 207px;
+                    position: relative;
+                  }
+            }
+        }
+
+        article{
+            width: 349px;
+            height: 303px;
+
+            @media screen and (max-width: 767px){
+                width: 280px;
+                position: relative;
+                bottom: 51px;
+            }
+
+            .zx9{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 58px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+
+                @media screen and (max-width: 767px){
+                    font-size: 41px;
+                    leading-trim: NONE;
+                    line-height: 40px;
+                    letter-spacing: 1.29px;
+                    text-align: center;
+
+                }
+
+            }
+
+            p{
+                font-family: Manrope;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+
+                @media screen and (max-width: 767px){
+                    text-align: center;
+                    color: #ffffff87;
+
+                }
+
+            }
+
+            button{
+                width: 160px;
+                height: 48px;
+                border: 0;
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 100%;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                background-color: #000000;
+                color: #FFFFFF;
+
+            }
+        }
+        
+    }
+
+    .zx7-speaker{
+        margin-top: 48px;
+        margin-bottom: 48px;
+        padding-left: 95px;
+        height: 320px;
+        gap: 47px;
+        border-radius: 10px;
+
+        background-image: url("./assets/second-part-images/zx7-speaker.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 100;
+
+        @media screen and (max-width: 767px){
+            width: 327px;
+            height: 320px;
+            background-size: 100% 100%;
+            padding-left: 0;
+            padding-left: 10px;
+            gap: 10px;
+        }
+
+        p{
+            font-family: Manrope;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 100%;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #000000;
+
+            @media screen and (max-width: 767px){
+                font-size: 20px;
+        }
+
+           
+
+        }
+
+        button{
+            width: 160px;
+            height: 48px;
+            border: 1px solid #000000;
+            background-color: transparent;
+
+            font-family: Manrope;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000000;
+
+            @media screen and (max-width: 767px){
+                width: 113px;
+                height: 40px;
+        }
+
+        }
+        
+
+        
+    }
+
+    .yx1-earphones{
+        margin-bottom: 200px;
+        .leftImage{
+            width: 610px;
+            height: 320px;
+
+            img{
+                height: 100%;
+            }
+        }
+
+        .rightProduct{
+            width: 610px;
+            height: 320px;
+            background-color: #F1F1F1;
+            border-radius: 10px;
+            padding-left: 96.5px;
+            gap: 32px;
+
+            h4{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 100%;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #000000;
+
+            }
+
+            button{
+                width: 160px;
+                height: 28px;
+                background-color: #F1F1F1;
+                border: 1px solid #000000;
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 100%;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #000000;
+
+            }
+        }
+    }
+
+    .our-advantages{
+        margin-bottom: 200px;
+        .best-gear{
+            width: 445px;
+            height: 295px;
+
+            .best-audio{
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 44px;
+                letter-spacing: 1.43px;
+                text-transform: uppercase;
+                color: #000000;
+                
+                span{
+                    color: #e47a4b;
+                }
+
+            }
+
+            p{
+                font-family: Manrope;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 0px;
+                color: #000000ba;
+
+            }
+
+            figure{
+                width: 540px;
+                height: 588px;
+            }
+        }
+    }
+
+    
+}
+
+footer{
+        background-color: #101010;
+        color: #FFFFFF;
+        gap: 75px;
+        height: 365px;
+
+        @media screen and (max-width: 767px){
+            width: 375px;
+            height: 654px;
+        }
+
+        img{
+            width: 143px;
+            height: 25px;
+        }
+
+        .reputation{
+            gap: 36px;
+            padding-top: 75px;
+        }
+
+        .ourPerfection{
+            width: 540px;
+            height: 100px;
+            font-family: Manrope;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0px;
+            color: #f1f1f170;
+
+            @media screen and (max-width: 767px){
+                width: 327px;
+                height: 150px;
+            }
+
+        }
+
+        p{
+            height: 25px;
+            width: 540px;
+            font-family: Manrope;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0px;
+            color: #f1f1f170;
+
+        }
+
+        .navigation-links{
+            height: 171px;
+            width: 460px;
+            gap: 34px;
+
+            @media screen and (max-width: 767px){
+                width: 104px;
+                height: 24px;
+            }
+
+            button{
+                width: 106px;
+                height: 25px;
+                background-color: #101010;
+                border: none;
+                color: #FFFFFF;
+                font-family: Manrope;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 25px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+
+            }
+        }
+
+        .socialLinks{
+            a{
+                color:#FFFFFF;
+            }
+        }
+    }
