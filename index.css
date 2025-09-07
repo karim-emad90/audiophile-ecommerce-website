@@ -18,7 +18,7 @@ body{
         border-bottom: 1px solid #FFFFFF;
         height: 96px;
 
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             width: 100%;
         }
 
@@ -27,14 +27,14 @@ body{
         img{
             height: 25px;
             width: 143px;
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 order: 2;
             }
           
         }
 
         .barsIcon{
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 order: 1;
             }
         }
@@ -49,14 +49,14 @@ body{
             letter-spacing: 2px;
             text-transform: uppercase;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 order: 3;
             }
 
         }
 
         svg{
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 23px;
                 height: 20px;
                 color: #FFFFFF;
@@ -74,7 +74,7 @@ body{
             gap:24px;
             position: relative;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 position: absolute;
                 z-index: 100;
                 width: 100%;
@@ -89,7 +89,7 @@ body{
                 text-transform: uppercase;
                 color: #FFFFFF;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     color: #ffffff54;
                 }
 
@@ -105,7 +105,7 @@ body{
                 text-transform: uppercase;
                 color: #FFFFFF;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     font-size: 36px;
                     line-height: 40px;
                     letter-spacing: 1.29px;
@@ -125,7 +125,7 @@ body{
                 color: #FFFFFF;
                 width: 349px;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     width: 328px;
                     font-weight: 400;
                     font-size: 15px;
@@ -158,7 +158,7 @@ body{
         }
 
         figure{
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 768px) {
                 position: relative;
                 right: 125px;
                 z-index: 0;
@@ -166,7 +166,7 @@ body{
             }
 
             img{
-                @media screen and (max-width: 767px) {
+                @media screen and (max-width: 768px) {
                width: 576px;
                 
             }
@@ -181,7 +181,7 @@ body{
 
     .topPart{
         height: 284px;
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             width: 100%;
             height: 868px;
             gap: 68px;
@@ -200,7 +200,7 @@ body{
             padding-bottom: 30px;
             border-radius: 10px;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 100%x;
                 height: 217px;
             }
@@ -214,7 +214,7 @@ body{
                 text-align: center;
                 text-transform: uppercase;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     font-size: 15px;
                     leading-trim: NONE;
                     letter-spacing: 1.07px;
@@ -227,7 +227,7 @@ body{
                 position: absolute;
                 bottom: 130px;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     width: 79.92px;
                     height: 104px;
                     bottom: 172px;
@@ -243,7 +243,7 @@ body{
                 position: absolute;
                 top: 70px;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     top: 90px;
                 }
             }
@@ -259,7 +259,7 @@ body{
               letter-spacing: 1px;
               text-transform: uppercase;
 
-              @media screen and (max-width: 767px){
+              @media screen and (max-width: 768px){
                 width: 70px;
                 height: 18px;
                 leading-trim: NONE;
@@ -271,7 +271,7 @@ body{
                 color: #D87D4A;
                 padding-bottom: 2px;
 
-                @media screen and (max-width: 767px) {
+                @media screen and (max-width: 768px) {
                     width: 22px;
                     height: 22px;
                 }
@@ -285,7 +285,7 @@ body{
         background-color: #D87D4A;
         border-radius: 10px;
 
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
                 height: 600px;
                 width: 100%;
                 overflow: hidden;
@@ -295,7 +295,7 @@ body{
             position: relative;
             height: 560px;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
              width: 100%;
              overflow: hidden;
             }
@@ -312,7 +312,7 @@ body{
                 border: 0.5px solid #ffffff4a;
                 z-index: 2;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     width: 558px;
                     height: 558px;
                     top: -106px;
@@ -330,7 +330,7 @@ body{
                 border: 1px solid #ffffff4a;
                 z-index: 2;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     width: 320px;
                     height: 320px;
                     top: 116px;
@@ -348,7 +348,7 @@ body{
                 border: 1px solid #ffffff4a;
                 z-index: 2;
 
-                 @media screen and (max-width: 767px){
+                 @media screen and (max-width: 768px){
                     width: 279px;
                     height: 279px;
                     top: 19px;
@@ -363,7 +363,7 @@ body{
                   left: 70px;
                   top: 65px;
 
-                  @media screen and (max-width: 767px){
+                  @media screen and (max-width: 768px){
                     width: 172.25px;
                     height: 207px;
                     position: relative;
@@ -375,7 +375,7 @@ body{
             width: 349px;
             height: 303px;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 280px;
                 position: relative;
                 bottom: 51px;
@@ -390,7 +390,7 @@ body{
                 text-transform: uppercase;
                 color: #FFFFFF;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     font-size: 41px;
                     leading-trim: NONE;
                     line-height: 40px;
@@ -409,7 +409,7 @@ body{
                 letter-spacing: 0px;
                 color: #FFFFFF;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     text-align: center;
                     color: #ffffff87;
 
@@ -450,7 +450,7 @@ body{
         position: relative;
         z-index: 100;
 
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             width: 100%;
             height: 320px;
             background-size: 100% 100%;
@@ -468,7 +468,7 @@ body{
             text-transform: uppercase;
             color: #000000;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 font-size: 20px;
         }
 
@@ -490,7 +490,7 @@ body{
             text-transform: uppercase;
             color: #000000;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 113px;
                 height: 40px;
         }
@@ -504,7 +504,7 @@ body{
     .yx1-earphones{
         margin-bottom: 200px;
 
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             margin-bottom: 100px;
         }
         .leftImage{
@@ -537,7 +537,7 @@ body{
                 text-transform: uppercase;
                 color: #000000;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     font-size: 20px;
                     width: 100%;
                 }
@@ -558,7 +558,7 @@ body{
                 color: #000000;
 
 
-              @media screen and (max-width: 767px){
+              @media screen and (max-width: 768px){
                 height: 48px;
               }
                 
@@ -571,7 +571,7 @@ body{
 
     .our-advantages{
         margin-bottom: 200px;
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             width: 100%;
             height: 610px;
         }
@@ -579,7 +579,7 @@ body{
             width: 445px;
             height: 295px;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                     order: 2;
                     width: 100%;
                 }
@@ -598,7 +598,7 @@ body{
                 }
 
                 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                     font-size: 28px;
                     width: 100%;
                     height: 76px;
@@ -616,7 +616,7 @@ body{
                 letter-spacing: 0px;
                 color: #000000ba;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     width: 100%;
                     text-align: center;
 
@@ -628,7 +628,7 @@ body{
                 width: 540px;
                 height: 588px;
 
-                @media screen and (max-width: 767px){
+                @media screen and (max-width: 768px){
                     order: 1;
                 }
             }
@@ -644,7 +644,7 @@ footer{
         gap: 75px;
         height: 365px;
 
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 768px){
             width: 100%;
             height: 865px;
         }
@@ -658,7 +658,7 @@ footer{
             gap: 36px;
             padding-top: 75px;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 align-items: center;
                 justify-content: center;
             }
@@ -674,7 +674,7 @@ footer{
             letter-spacing: 0px;
             color: #f1f1f170;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 100%;
                 height: 150px;
                 text-align: center;
@@ -692,7 +692,7 @@ footer{
             letter-spacing: 0px;
             color: #f1f1f170;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 100%;
                 text-align: center;
             }
@@ -704,7 +704,7 @@ footer{
             width: 460px;
             gap: 34px;
 
-            @media screen and (max-width: 767px){
+            @media screen and (max-width: 768px){
                 width: 104px;
                 height: 24px;
             }
